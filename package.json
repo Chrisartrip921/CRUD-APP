@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "node index",
     "start": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
