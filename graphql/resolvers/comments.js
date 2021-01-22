@@ -14,7 +14,7 @@ module.exports = {
                     }
                 })
             }
-            const post = Post.findById(postId);
+            const post = await Post.findById(postId);
 
             if(post){
                 post.comments.unshift({
